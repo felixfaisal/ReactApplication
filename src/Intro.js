@@ -3,7 +3,6 @@ import './Catalog.css'
 import { Grommet, Grid } from 'grommet';
 import { Box} from 'grommet';
 import { grommet } from 'grommet/themes';
-import NavBar from './NavBar'
 import IntroHeading from './IntroHeading'
 //import Product from './Product'
 class Intro extends React.Component{

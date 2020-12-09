@@ -3,8 +3,7 @@ import './Catalog.css'
 import { Grommet, Grid } from 'grommet';
 import { Box, Carousel, Heading, Text} from 'grommet';
 import { grommet } from 'grommet/themes';
-import NavBar from './NavBar'
-import IntroHeading from './IntroHeading'
+
 //import Product from './Product'
 class Projects extends React.Component{
     render(){
@@ -19,14 +18,14 @@ class Projects extends React.Component{
           ]}
           gap="none"
         >
-          <Box background="black" gridArea="header">
+          <Box background="white" gridArea="header">
             <Box align="center" justify="center">
             <Heading size="small" color="cyan">Experience</Heading>
             </Box>
             
           </Box>
   
-          <Box background="black" gridArea="main" justify="center">
+          <Box background="white" gridArea="main" justify="center">
           <Box height="60vh" width="100%" overflow="hidden" fill  align="center" justify="center" >
             <Carousel fill justify="center">
             <Box align="center" justify="start" fill>
@@ -36,8 +35,8 @@ class Projects extends React.Component{
               <Text size="large">Free/Libre and Open Source Software for Education </Text>
               <Text size="medium" color="lightgreen">April 2020 - June 2020</Text>
               <Box margin="40px">
-                <Heading size="20px" color="white">I worked with a Team responsible for Esim section of FOSSEE</Heading>
-                <Heading size="20px" color="white">Developed frontend for building circuits and performing simulations</Heading>
+                <Heading size="20px" color="black">I worked with a Team responsible for Esim section of FOSSEE</Heading>
+                <Heading size="20px" color="black">Developed frontend for building circuits and performing simulations</Heading>
               </Box>
               
               </Box>

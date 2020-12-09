@@ -1,11 +1,9 @@
 import React from 'react';
 import './Catalog.css'
 import { Grommet, Grid, Anchor } from 'grommet';
-import { Box, Carousel, Heading, Text, Button} from 'grommet';
+import { Box, Carousel, Heading, Text} from 'grommet';
 import { grommet } from 'grommet/themes';
-import NavBar from './NavBar'
-import IntroHeading from './IntroHeading'
-//import Product from './Product'
+
 class Experience extends React.Component{
     render(){
         return (
@@ -19,14 +17,14 @@ class Experience extends React.Component{
           ]}
           gap="none"
         >
-          <Box background="black" gridArea="header">
+          <Box background="dark-1" gridArea="header">
             <Box align="center" justify="center">
             <Heading size="medium" color="cyan">Experience</Heading>
             </Box>
             
           </Box>
   
-          <Box background="black" gridArea="main" justify="center">
+          <Box background="dark-1" gridArea="main" justify="center">
           <Box height="60vh" width="100%" overflow="hidden" fill  align="center" justify="center" >
             <Carousel fill justify="center">
             <Box align="center" justify="start" fill>
@@ -43,7 +41,7 @@ class Experience extends React.Component{
                 <Text margin="2px" color="red">MXGraph</Text>
 
               </Box>
-              <Box margin="60px">
+              <Box margin="20px">
                 <Heading size="20px" color="white">I worked with a Team to build a web application that can <br></br> perform electronic simulations using NGSPICE</Heading>
                 <Heading size="20px" color="white">Developed frontend for building circuits and performing simulations</Heading>
                 <Heading size="20px" color="white">Interactive UI to modify simulation parameters</Heading>
