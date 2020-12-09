@@ -6,7 +6,7 @@ import { grommet } from 'grommet/themes';
 import NavBar from './NavBar'
 import IntroHeading from './IntroHeading'
 //import Product from './Product'
-class Intro extends React.Component{
+class Contact extends React.Component{
     render(){
         return (
         <Grommet theme={grommet}>
@@ -20,7 +20,6 @@ class Intro extends React.Component{
           gap="none"
         >
           <Box background="black" gridArea="header">
-            
           </Box>
   
           <Box background="black" gridArea="main" justify="center">
@@ -34,4 +33,4 @@ class Intro extends React.Component{
     }
 }
 
-export default Intro;
+export default Contact;
